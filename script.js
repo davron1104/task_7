@@ -10,8 +10,14 @@ function calculateVolumeAndArea(a) {
 
 
 let V = a * a * a;
-let  S = 6 * (a * a);
+let  S = 6 * Math.pow(a, 2);
 console.log(`Объем куба: ${V}, площадь всей поверхности: ${S}`);
 return `Объем куба: ${V}, площадь всей поверхности: ${S}`;
 }
-calculateVolumeAndArea();
+calculateVolumeAndArea(4);
+
+
+// Место для второй задачи
+function getCoupeNumber() {
+
+}
